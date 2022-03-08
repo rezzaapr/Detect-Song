@@ -1,0 +1,30 @@
+{
+  "name": "whats-the-lyric",
+  "version": "1.0.0",
+  "description": "Find Your Favorite Song Just By Entering A Few Words Of Lyrics. You Will Find It Immediately",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "axios-https-proxy-fix": "^0.17.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezzaapr/whats-the-lyric.git"
+  },
+  "keywords": [
+    "lyric-detector"
+  ],
+  "author": "Rezza Priatna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezzaapr/whats-the-lyric/issues"
+  },
+  "homepage": "https://github.com/rezzaapr/whats-the-lyric#readme"
+}
